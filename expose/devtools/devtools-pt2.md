@@ -1,0 +1,2 @@
+1. The bug is the num1 and num2 both is string and when it pass to the function calculateSum Javascript treat it string add operation which just connect both string together become 1 string for example in the case of num1 = '1' and num2 = '2' the calculateSum will return '12'
+2. I fixed this bug by calling the function Number on num1 and num2 that will convert the string to become a number so Javascript will the number add operation which that is what sum should do.
